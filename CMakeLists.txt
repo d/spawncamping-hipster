@@ -1,3 +1,5 @@
 PROJECT(Bro)
 
+SET(CMAKE_CXX_STANDARD 14)
+SET(CMAKE_CXX_STANDARD_REQUIRED true)
 add_executable(bro bro.cc)
